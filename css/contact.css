@@ -1,35 +1,15 @@
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
-
-
-body{
-    font-family: sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    height: 100%;
-    width: 100%;
-    background-image:url(../images/faceless.jpg); 
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-#faceless{
-    background-position: center;
-    background-image: no-repeat;
-}
-
+/* navbar styles region*/
 #nav-bar{
     position: sticky;
     top: 0;
     z-index: 10;
     color: #fff;
-  
+    background-color: black; 
 }
-
 .navbar{
     padding: 0 !important;
 }
@@ -58,3 +38,4 @@ body{
 .navbar-toggler{
     outline: none !important;
 }
+/* end navbar  region*/
