@@ -1,8 +1,7 @@
 
-
 .banner{
     position: relative;
-    background: url(../images/back.jpeg);
+    background: url(../images/notme.jpeg);
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -14,7 +13,7 @@
     padding:0;
     font-size:2.8em;
     font-weight:1000 ;
-    color: #fff;
+    color: #262626;
     text-transform: uppercase;
 }
 .banner p{
@@ -22,7 +21,7 @@
     padding:0;
     font-size:1.2em;
     line-height: 1.5em;
-    color: #fff;
+    color: #262626;
 }
 .btnD1{
     display: inline-block;
@@ -57,3 +56,4 @@
         font-size: 1.8em;
     }
 }
+
