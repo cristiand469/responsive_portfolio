@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="./images/favicon.jpg">
+    <link rel="shortcut icon" type="image/png" href="./pics/favicon.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/about_me.css">
     <title>About Me</title>
@@ -12,7 +12,7 @@
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">LOGO</a>
+              <a class="navbar-brand" href="#"><img src="./pics/favicon.jpg" width="50px" height="50px">THE RED DRAGON</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -20,7 +20,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-lg-auto">
                     <li class="nav-item ">
-                      <a class="nav-link" href="H.html"><strong>Home</strong></a>
+                      <a class="nav-link" href="home.html"><strong>Home</strong></a>
                     </li>
                     <li class="nav-item active">
                       <a class="nav-link" href="about_me.html"><strong>About Me</strong></a>
@@ -38,14 +38,34 @@
     </header>
     <section class="banner">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h2> Cristian David Ramirez </h2>
-            <p>write something here</p>
-            <a href="#" class="btnD1">Read Me</a>
+        <div id="title" class="row">
+          <div class="col-md-12">
+            About Me
           </div>
-
         </div>
+        <div class="row">
+          <div id="sidebar" class="col-md-5">
+             <img src="./pics/selfie.jpg" alt="selfie" width="100%" height="100%">
+          </div>
+          <div id="main_contain" class="col-md-7">
+              <p>main content</p>
+          </div>
+        </div>
+        <div class="row">
+          <div id="Hobbies" class="col-md-6">
+            <div class="row">
+              <h5>Hobbies</h5>
+              <br>
+              <p> list of my hobbies that i have</p>
+            </div>
+          </div>
+          <div id="skills" class="col-md-6">
+            <h5>Skills</h5> 
+            <p> list of degrees, and skills </p>
+          </div>
+        </div>
+
+        
 
       </div>
   </section>

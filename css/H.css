@@ -1,7 +1,7 @@
 
 .banner{
     position: relative;
-    background: url(../images/notme.jpeg);
+    background: url(../pics/notme.jpeg);
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -56,4 +56,8 @@
         font-size: 1.8em;
     }
 }
-
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1em;
+}
