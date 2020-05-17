@@ -13,10 +13,19 @@
 .navbar{
     padding: 0 !important;
 }
-
 .navbar-brand{
-    font-family: 'Dancing Script', cursive;  
-    color: #fff !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 2em; 
+    color: #fff !important; 
+    position: right;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: gold;
+}
+.navbar-light, .navbar-nav, .nav-link{
+    padding: 5px 15px;
 }
 
 .navbar-nav li{
