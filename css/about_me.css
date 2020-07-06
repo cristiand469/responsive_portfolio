@@ -1,39 +1,77 @@
 
-
-.banner{
+.about-the-author {
+    background-color: #fefefe;
+    padding: 1rem;
+    border: 1px solid #cacaca;
+  }
+  
+  .about-the-author .separator-left {
+    text-align: left;
+  }
+  
+  .about-the-author .separator-left::before, .about-the-author .separator-left::after {
+    display: table;
+    content: ' ';
+    -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  
+  .about-the-author .separator-left::after {
+    clear: both;
+  }
+  
+  .about-the-author .separator-left::after {
     position: relative;
-    background: url(../pics/blueoil.jpeg);
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-
-}
-
-}
-.navbar-light .navbar-toggler{
-    border:none;
-    color: #fff;
-    border: 2px solid #7f7f7f;
-    border-radius: 0;
-    outline: none;
-}
-.navbar-collapse{
-    background: #fff;
-}
-#title{
-    margin:0;
-    padding:0;
-    font-size:2.8em;
-    font-weight:1000 ;
-    color: #262626;
+    width: 5rem;
+    border-bottom: 0.125rem solid #1779ba;
+    margin: 0.3rem auto 0;
+    margin-left: 0;
+  }
+  
+  .about-the-author .author-title {
     text-transform: uppercase;
+  }
+  
+  .about-the-author .author-social {
     text-align: center;
-}
-#sidebar{
-    height: 480px;
-    width: ;
-    text-align: center;
-}
-#main_contain{
-    height: 480px;
-}
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+  
+  .about-the-author .author-social .fa-stack {
+    display: inline-block;
+  }
+  
+  .about-the-author .author-social .fa-stack.facebook {
+    color: #4c70ba;
+  }
+  
+  .about-the-author .author-social .fa-stack.facebook:hover, .about-the-author .author-social .fa-stack.facebook:focus {
+    color: #3b5998;
+  }
+  
+  .about-the-author .author-social .fa-stack.twitter {
+    color: #83c3f3;
+  }
+  
+  .about-the-author .author-social .fa-stack.twitter:hover, .about-the-author .author-social .fa-stack.twitter:focus {
+    color: #55acee;
+  }
+  
+  .about-the-author .author-social .fa-stack.linkedin {
+    color: #009ee8;
+  }
+  
+  .about-the-author .author-social .fa-stack.linkedin:hover, .about-the-author .author-social .fa-stack.linkedin:focus {
+    color: #007bb5;
+  }
+  
+  .about-the-author .author-image {
+    border: 1px solid #cacaca;
+  }
+  
+  
